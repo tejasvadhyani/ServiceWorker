@@ -1,5 +1,7 @@
 'use strict';
-var scope = './';
+var scope = {
+  scope: './'
+};
 
 if('serviceWorker' in navigator) {
   navigator.serviceWorker.register('service-worker.js',
